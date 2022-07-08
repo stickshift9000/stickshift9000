@@ -1,10 +1,26 @@
-- 👋 Hi, I’m @stickshift9000
-- 👀 I’m interested in ...
-- 🌱 I’m currently learning ...
-- 💞️ I’m looking to collaborate on ...
-- 📫 How to reach me ...
+<!doctype html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="device.css">
 
-<!---
-stickshift9000/stickshift9000 is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
+<meta chorset="utf-8">
+<title>page test</title>
+</head>
+<body>
+<button id="clicker">push me</button>
+<h1 id = "color">Hi</h1>
+
+
+<script>
+
+var clickerButton = document.getElementById("clicker");
+
+var onButtonClick = function() {
+    clickerButton.textContent = "oh";
+
+};
+clickerButton.addEventListener("click",onButtonClick);
+
+</script>
+</body>
+</html>
